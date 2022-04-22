@@ -1,3 +1,19 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": true,
+    "javascript.preferences.quoteStyle": "auto",
+    "typescript.preferences.quoteStyle": "auto",
+    "html.completion.attributeDefaultValue": "doublequotes",
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+    "prettier.semi": false,
+    "typescriptHero.imports.insertSemicolons": false,
+    "csscomb.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.trimTrailingWhitespace": true,
+    "indentRainbow.colorOnWhiteSpaceOnly": false,
+    "indentRainbow.lightIndicatorStyleLineWidth": 4,
+    "svgeditor.indentSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.tabSize": 2
 }
