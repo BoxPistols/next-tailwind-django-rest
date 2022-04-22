@@ -12,8 +12,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.trimTrailingWhitespace": true,
     "indentRainbow.colorOnWhiteSpaceOnly": false,
-    "indentRainbow.lightIndicatorStyleLineWidth": 4,
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
     "svgeditor.indentSize": 2,
-    "editor.autoIndent": "keep",
-    "editor.tabSize": 2
+    "editor.autoIndent": "full",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    }
 }
