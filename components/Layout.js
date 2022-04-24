@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Layout({ children, h1, h2, title = 'HP by Next.js' }) {
   return (
-    <div className="flex flex-col items-center min-h-screen font-mono text-sm text-gray-600 jusify-center">
+    <div className="flex flex-col min-h-screen font-mono text-sm text-gray-600 ">
       <Head>
         <title>{title}</title>
       </Head>
@@ -14,17 +14,17 @@ function Layout({ children, h1, h2, title = 'HP by Next.js' }) {
           <div className="flex h-12 pl-4 place-items-center">
             <div className="pl-4">
               <Link href="/">
-                <a className="text-gray-300 pd-2 hover:text-gray-100 ">Home</a>
+                <a className="text-gray-300 pd-2 hover:text-gray-100">Home</a>
               </Link>
             </div>
             <div className="pl-4">
               <Link href="/blog-page">
-                <a className="text-gray-300 pd-2 hover:text-gray-100 ">Blog</a>
+                <a className="text-gray-300 pd-2 hover:text-gray-100">Blog</a>
               </Link>
             </div>
             <div className="pl-4">
               <Link href="/contact-page">
-                <a className="text-gray-300 pd-2 hover:text-gray-100 ">
+                <a className="text-gray-300 pd-2 hover:text-gray-100">
                   Contact
                 </a>
               </Link>
@@ -39,7 +39,6 @@ function Layout({ children, h1, h2, title = 'HP by Next.js' }) {
         {children}
       </main>
       {/* footer */}
-      {/* <footer className="flex items-center justify-center w-full h-12 border-t"> */}
       <footer className="grid w-full h-12 border-t place-items-center">
         <a
           href="https://nextjs.org/"
