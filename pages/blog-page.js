@@ -3,16 +3,18 @@ import Layout from '../components/Layout'
 import { getAllPostData } from '../lib/posts'
 
 const Blog = () => {
-    return (
-        <div>
-            <Layout title="Blog">blog page</Layout>
-        </div>
-    )
+  return (
+    <div>
+      <Layout title='Blog'>blog page</Layout>
+    </div>
+  )
 }
+export default Blog
 
 // ビルド時に１回だけサーバーサイドでレンダリングされる
-export async function getAllPostData() {
-    const posts = await getAllPostData()
+export async function getStaticProps () {
+  const posts = await getAllPostData()
+  return {
+    props: { posts }
+  }
 }
-
-export default Blog
