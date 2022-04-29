@@ -19,7 +19,7 @@
     "editor.wordWrap": "on",
     "files.autoSave": "off",
     "[javascript]": {
-        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+        "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
     },
     "todo-tree.tree.autoRefresh": false,
     "[css]": {
