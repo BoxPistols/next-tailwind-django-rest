@@ -24,5 +24,19 @@
     "todo-tree.tree.autoRefresh": false,
     "[css]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#083144",
+        "titleBar.activeBackground": "#0B455F",
+        "titleBar.activeForeground": "#F5FBFE"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true
     }
 }

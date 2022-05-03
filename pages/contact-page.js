@@ -32,6 +32,7 @@ const Contact = () => {
                 href="https://nerdcave.com/tailwind-cheat-sheet"
                 className=""
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {/* <i className="text-gray-600 fab fa-facebook-f">x</i> */}
                 tailwind-cheat-sheet
